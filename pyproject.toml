@@ -9,6 +9,12 @@ readme = "README.md"
 python = "^3.12"
 
 
+[tool.poetry.group.dep.dependencies]
+psycopg2 = "^2.9.10"
+python-dotenv = "^1.1.0"
+ipython = "^9.3.0"
+pillow = "^11.2.1"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
